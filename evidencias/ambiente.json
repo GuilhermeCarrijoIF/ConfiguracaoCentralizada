@@ -1,0 +1,13 @@
+{
+  "sistema": "Windows 11 amd64",
+  "java": "21.0.12.1 (compilação release 17)",
+  "maven": "3.9.9",
+  "spring_boot": "3.3.5",
+  "spring_cloud": "2023.0.3",
+  "compilacao": "BUILD SUCCESS nos quatro módulos",
+  "comando_compilacao": ".\\mvnw.cmd -B package",
+  "perfil": "dev",
+  "branch": "main",
+  "commit_configuracoes_testado": "ef008fa32b11fe8cdcf5e0c5d6620e0e92c693c8",
+  "periodo": "13/10/2026, 19:39:28 a 19:40:54 (UTC-3, America/Sao_Paulo)"
+}

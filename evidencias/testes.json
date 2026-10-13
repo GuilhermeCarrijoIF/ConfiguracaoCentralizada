@@ -1,0 +1,101 @@
+{
+  "inicio": "2026-10-13T19:39:28.8767918-03:00",
+  "fim": "2026-10-13T19:40:54.5166898-03:00",
+  "repositorio": "https://github.com/GuilhermeCarrijoIF/ConfiguracaoCentralizada.git",
+  "perfil": "dev",
+  "total": 10,
+  "aprovados": 10,
+  "erro_execucao": null,
+  "testes": [
+    {
+      "nome": "Configuração cliente-vendas",
+      "url": "http://localhost:8888/cliente-vendas/dev",
+      "horario": "2026-10-13T19:40:50.2869784-03:00",
+      "status_http": 200,
+      "resposta": "{\"name\":\"cliente-vendas\",\"profiles\":[\"dev\"],\"label\":null,\"version\":\"ef008fa32b11fe8cdcf5e0c5d6620e0e92c693c8\",\"state\":null,\"propertySources\":[{\"name\":\"https://github.com/GuilhermeCarrijoIF/ConfiguracaoCentralizada.git/cliente-vendas-dev.properties\",\"source\":{\"mensagem.boasvindas\":\"Bem-vindo ao sistema de Vendas - Ambiente DEV\",\"server.port\":\"8081\"}}]}",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Mensagem cliente-vendas",
+      "url": "http://localhost:8081/mensagem",
+      "horario": "2026-10-13T19:40:51.5284636-03:00",
+      "status_http": 200,
+      "resposta": "Bem-vindo ao sistema de Vendas - Ambiente DEV",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Saúde cliente-vendas",
+      "url": "http://localhost:8081/actuator/health",
+      "horario": "2026-10-13T19:40:51.5789066-03:00",
+      "status_http": 200,
+      "resposta": "{\"status\":\"UP\"}",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Configuração cliente-estoque",
+      "url": "http://localhost:8888/cliente-estoque/dev",
+      "horario": "2026-10-13T19:40:51.6313485-03:00",
+      "status_http": 200,
+      "resposta": "{\"name\":\"cliente-estoque\",\"profiles\":[\"dev\"],\"label\":null,\"version\":\"ef008fa32b11fe8cdcf5e0c5d6620e0e92c693c8\",\"state\":null,\"propertySources\":[{\"name\":\"https://github.com/GuilhermeCarrijoIF/ConfiguracaoCentralizada.git/cliente-estoque-dev.properties\",\"source\":{\"mensagem.boasvindas\":\"Serviço de Estoque inicializado - Ambiente DEV\",\"server.port\":\"8082\"}}]}",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Mensagem cliente-estoque",
+      "url": "http://localhost:8082/mensagem",
+      "horario": "2026-10-13T19:40:52.5828927-03:00",
+      "status_http": 200,
+      "resposta": "Serviço de Estoque inicializado - Ambiente DEV",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Saúde cliente-estoque",
+      "url": "http://localhost:8082/actuator/health",
+      "horario": "2026-10-13T19:40:52.6222396-03:00",
+      "status_http": 200,
+      "resposta": "{\"status\":\"UP\"}",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Configuração cliente-relatorios",
+      "url": "http://localhost:8888/cliente-relatorios/dev",
+      "horario": "2026-10-13T19:40:52.6553669-03:00",
+      "status_http": 200,
+      "resposta": "{\"name\":\"cliente-relatorios\",\"profiles\":[\"dev\"],\"label\":null,\"version\":\"ef008fa32b11fe8cdcf5e0c5d6620e0e92c693c8\",\"state\":null,\"propertySources\":[{\"name\":\"https://github.com/GuilhermeCarrijoIF/ConfiguracaoCentralizada.git/cliente-relatorios-dev.properties\",\"source\":{\"mensagem.boasvindas\":\"Serviço de Relatórios em execução - Ambiente DEV\",\"server.port\":\"8083\"}}]}",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Mensagem cliente-relatorios",
+      "url": "http://localhost:8083/mensagem",
+      "horario": "2026-10-13T19:40:53.5527018-03:00",
+      "status_http": 200,
+      "resposta": "Serviço de Relatórios em execução - Ambiente DEV",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Saúde cliente-relatorios",
+      "url": "http://localhost:8083/actuator/health",
+      "horario": "2026-10-13T19:40:53.5729232-03:00",
+      "status_http": 200,
+      "resposta": "{\"status\":\"UP\"}",
+      "aprovado": true,
+      "erro": null
+    },
+    {
+      "nome": "Saúde config-server",
+      "url": "http://localhost:8888/actuator/health",
+      "horario": "2026-10-13T19:40:53.5960544-03:00",
+      "status_http": 200,
+      "resposta": "{\"status\":\"UP\"}",
+      "aprovado": true,
+      "erro": null
+    }
+  ]
+}

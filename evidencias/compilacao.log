@@ -1,0 +1,138 @@
+Registro sanitizado: caminhos locais, usuário do sistema e PIDs foram removidos.
+
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] config-server                                                      [jar]
+[INFO] cliente-vendas                                                     [jar]
+[INFO] cliente-estoque                                                    [jar]
+[INFO] cliente-relatorios                                                 [jar]
+[INFO] trabalho-config-server                                             [pom]
+[INFO] 
+[INFO] -------------------< br.com.trabalho:config-server >--------------------
+[INFO] Building config-server 0.0.1-SNAPSHOT                              [1/5]
+[INFO]   from config-server\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ config-server ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ config-server ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ config-server ---
+[INFO] skip non existing resourceDirectory <PROJETO>\config-server\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ config-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ config-server ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ config-server ---
+[INFO] 
+[INFO] --- spring-boot:3.3.5:repackage (repackage) @ config-server ---
+[INFO] Replacing main artifact <PROJETO>\config-server\target\config-server-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to <PROJETO>\config-server\target\config-server-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] -------------------< br.com.trabalho:cliente-vendas >-------------------
+[INFO] Building cliente-vendas 0.0.1-SNAPSHOT                             [2/5]
+[INFO]   from cliente-vendas\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cliente-vendas ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ cliente-vendas ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cliente-vendas ---
+[INFO] skip non existing resourceDirectory <PROJETO>\cliente-vendas\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ cliente-vendas ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ cliente-vendas ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ cliente-vendas ---
+[INFO] 
+[INFO] --- spring-boot:3.3.5:repackage (repackage) @ cliente-vendas ---
+[INFO] Replacing main artifact <PROJETO>\cliente-vendas\target\cliente-vendas-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to <PROJETO>\cliente-vendas\target\cliente-vendas-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] ------------------< br.com.trabalho:cliente-estoque >-------------------
+[INFO] Building cliente-estoque 0.0.1-SNAPSHOT                            [3/5]
+[INFO]   from cliente-estoque\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cliente-estoque ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ cliente-estoque ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cliente-estoque ---
+[INFO] skip non existing resourceDirectory <PROJETO>\cliente-estoque\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ cliente-estoque ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ cliente-estoque ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ cliente-estoque ---
+[INFO] 
+[INFO] --- spring-boot:3.3.5:repackage (repackage) @ cliente-estoque ---
+[INFO] Replacing main artifact <PROJETO>\cliente-estoque\target\cliente-estoque-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to <PROJETO>\cliente-estoque\target\cliente-estoque-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] -----------------< br.com.trabalho:cliente-relatorios >-----------------
+[INFO] Building cliente-relatorios 0.0.1-SNAPSHOT                         [4/5]
+[INFO]   from cliente-relatorios\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cliente-relatorios ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ cliente-relatorios ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cliente-relatorios ---
+[INFO] skip non existing resourceDirectory <PROJETO>\cliente-relatorios\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ cliente-relatorios ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ cliente-relatorios ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ cliente-relatorios ---
+[INFO] 
+[INFO] --- spring-boot:3.3.5:repackage (repackage) @ cliente-relatorios ---
+[INFO] Replacing main artifact <PROJETO>\cliente-relatorios\target\cliente-relatorios-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to <PROJETO>\cliente-relatorios\target\cliente-relatorios-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] ---------------< br.com.trabalho:trabalho-config-server >---------------
+[INFO] Building trabalho-config-server 0.0.1-SNAPSHOT                     [5/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for trabalho-config-server 0.0.1-SNAPSHOT:
+[INFO] 
+[INFO] config-server ...................................... SUCCESS [  7.933 s]
+[INFO] cliente-vendas ..................................... SUCCESS [  0.723 s]
+[INFO] cliente-estoque .................................... SUCCESS [  0.538 s]
+[INFO] cliente-relatorios ................................. SUCCESS [  0.662 s]
+[INFO] trabalho-config-server ............................. SUCCESS [  0.003 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.844 s
+[INFO] Finished at: 2026-10-13T19:39:14-03:00
+[INFO] ------------------------------------------------------------------------

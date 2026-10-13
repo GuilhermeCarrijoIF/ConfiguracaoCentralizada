@@ -1,0 +1,32 @@
+Registro sanitizado: caminhos locais, usuário do sistema e PIDs foram removidos.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-10-13T19:40:21.476-03:00  INFO <PID> --- [cliente-estoque] [           main] b.c.t.estoque.ClienteEstoqueApplication  : Starting ClienteEstoqueApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID <PID> (<PROJETO>\cliente-estoque\target\cliente-estoque-0.0.1-SNAPSHOT.jar started by <USUARIO_LOCAL> in <PROJETO>)
+2026-10-13T19:40:21.486-03:00  INFO <PID> --- [cliente-estoque] [           main] b.c.t.estoque.ClienteEstoqueApplication  : The following 1 profile is active: "dev"
+2026-10-13T19:40:21.639-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-10-13T19:40:21.640-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=cliente-estoque, profiles=[default], label=null, version=ef008fa32b11fe8cdcf5e0c5d6620e0e92c693c8, state=null
+2026-10-13T19:40:21.641-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-10-13T19:40:21.642-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=cliente-estoque, profiles=[dev], label=null, version=ef008fa32b11fe8cdcf5e0c5d6620e0e92c693c8, state=null
+2026-10-13T19:40:25.183-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c0398cfd-a0f9-3518-9855-0c69c4e4ab22
+2026-10-13T19:40:26.064-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-10-13T19:40:26.096-03:00  INFO <PID> --- [cliente-estoque] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T19:40:26.097-03:00  INFO <PID> --- [cliente-estoque] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-10-13T19:40:26.205-03:00  INFO <PID> --- [cliente-estoque] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T19:40:26.208-03:00  INFO <PID> --- [cliente-estoque] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4558 ms
+2026-10-13T19:40:29.679-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-10-13T19:40:29.772-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2026-10-13T19:40:30.046-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-10-13T19:40:30.469-03:00  INFO <PID> --- [cliente-estoque] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-13T19:40:30.473-03:00  INFO <PID> --- [cliente-estoque] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-13T19:40:30.478-03:00  INFO <PID> --- [cliente-estoque] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-10-13T19:40:31.075-03:00  INFO <PID> --- [cliente-estoque] [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-10-13T19:40:31.197-03:00  INFO <PID> --- [cliente-estoque] [           main] b.c.t.estoque.ClienteEstoqueApplication  : Started ClienteEstoqueApplication in 15.022 seconds (process running for 15.762)

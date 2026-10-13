@@ -1,0 +1,177 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 63,
+    "sha256": "082bb2488227964bcf43f18dcaef9d7c0e4fcee2e572ffb8cc2fe891f81928de"
+  },
+  {
+    "path": ".mvn/wrapper/maven-wrapper.properties",
+    "bytes": 970,
+    "sha256": "391aef840b13fd7a6bed51f10d79893aebde898a77c09fe1d6cbe85e0fc038d6"
+  },
+  {
+    "path": "cliente-estoque/pom.xml",
+    "bytes": 1928,
+    "sha256": "9c086c1b3d14fabd6117e1f7e5bfa1c54fbdacdb07d68fb08d36a65dd2809889"
+  },
+  {
+    "path": "cliente-estoque/src/main/java/br/com/trabalho/estoque/ClienteEstoqueApplication.java",
+    "bytes": 342,
+    "sha256": "9b29cee5633ea225c9c8fc9e00bef60a491adce905b8e26534db860bfb51e24c"
+  },
+  {
+    "path": "cliente-estoque/src/main/java/br/com/trabalho/estoque/ConfigController.java",
+    "bytes": 460,
+    "sha256": "94684b52957b0b6180718729bca93db96d24ec3d0c0001004c70e2e095684c5b"
+  },
+  {
+    "path": "cliente-estoque/src/main/resources/application.properties",
+    "bytes": 176,
+    "sha256": "0c758137f731474b4495b3960007f1c193e75f1685c2ddfe66fc3ac055c093fd"
+  },
+  {
+    "path": "cliente-estoque-dev.properties",
+    "bytes": 91,
+    "sha256": "8fa627c27ee53a889905bdc1536de22d7168f7f244c8d9189f842e6070ac8600"
+  },
+  {
+    "path": "cliente-relatorios/pom.xml",
+    "bytes": 1934,
+    "sha256": "e213d184f3de78b35f8ba27c3fbcab19ecf06be7feb94def3a7755308a4b36d4"
+  },
+  {
+    "path": "cliente-relatorios/src/main/java/br/com/trabalho/relatorios/ClienteRelatoriosApplication.java",
+    "bytes": 351,
+    "sha256": "453e0cfa6e101e6c709780fee6249853635bc375b1057b29e9de90aeb1d89997"
+  },
+  {
+    "path": "cliente-relatorios/src/main/java/br/com/trabalho/relatorios/ConfigController.java",
+    "bytes": 463,
+    "sha256": "a42d247c0361a9067cdabbe273aa979f7e565fbfbdbd3159a4796c0cbdb324df"
+  },
+  {
+    "path": "cliente-relatorios/src/main/resources/application.properties",
+    "bytes": 179,
+    "sha256": "525d67e015ce69cc8fef0c03a920f1f15021d7a56dfd1bfc389a81443ac61c48"
+  },
+  {
+    "path": "cliente-relatorios-dev.properties",
+    "bytes": 108,
+    "sha256": "95a3fa3124a9a8949995a533c0506466e15e274faad37454ec3c18781e52cbaf"
+  },
+  {
+    "path": "cliente-vendas/pom.xml",
+    "bytes": 1926,
+    "sha256": "0f890d4e89cc29d9d63298db9bc895184bbbad91e9d11ac1a5e331c4c347a1a7"
+  },
+  {
+    "path": "cliente-vendas/src/main/java/br/com/trabalho/vendas/ClienteVendasApplication.java",
+    "bytes": 339,
+    "sha256": "5c4cee6cbbb368af2216fc0196c2fdc6af1b6d6490742feeaf0d1c76d7712be8"
+  },
+  {
+    "path": "cliente-vendas/src/main/java/br/com/trabalho/vendas/ConfigController.java",
+    "bytes": 459,
+    "sha256": "901e4d7e68ac00cab03b8761b160e76ea58206205d11b336385e6791c8697adf"
+  },
+  {
+    "path": "cliente-vendas/src/main/resources/application.properties",
+    "bytes": 175,
+    "sha256": "9a37a1d0850e5851da367974e7f0a20d7f485f838b74500aa74d21e613a5a1b2"
+  },
+  {
+    "path": "cliente-vendas-dev.properties",
+    "bytes": 85,
+    "sha256": "337dd293db808bd2111b1486b1e7c3da2e9526674e0583305ef26784dd69e676"
+  },
+  {
+    "path": "config-server/pom.xml",
+    "bytes": 1923,
+    "sha256": "0515f0721f61b4276dfab15e17950723368c33ab2b3a3228b734a535f76237f0"
+  },
+  {
+    "path": "config-server/src/main/java/br/com/trabalho/configserver/ConfigServerApplication.java",
+    "bytes": 430,
+    "sha256": "df81c080211fc0dfe95a5ef862f89ee43413bb8ab0c7d86d03426cf9e477f4de"
+  },
+  {
+    "path": "config-server/src/main/resources/application.properties",
+    "bytes": 308,
+    "sha256": "ae0f87d7e7b561f1fb96eebc73637d4a1215f7aedaa9ad6ad7ea815644234abf"
+  },
+  {
+    "path": "evidencias/ambiente.json",
+    "bytes": 469,
+    "sha256": "7ba0cf5f738fa7769888907ee737da1132788f258fd8a5a0c9a2b10e406367ee"
+  },
+  {
+    "path": "evidencias/cliente-estoque.log",
+    "bytes": 4195,
+    "sha256": "31a173915ddee13e0df61851b2502f3bd2cd54fe945d43c256a69472c83bbecb"
+  },
+  {
+    "path": "evidencias/cliente-estoque.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "evidencias/cliente-relatorios.log",
+    "bytes": 4273,
+    "sha256": "76150283cd1f630e50401ff54c99622f2257c35d54c857542121402293a7b0ac"
+  },
+  {
+    "path": "evidencias/cliente-relatorios.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "evidencias/cliente-vendas.log",
+    "bytes": 4169,
+    "sha256": "fabb07c98a042cda2d5a27386e4cc3ea82b890fe54d8bb8dcfba14f2e1ad732c"
+  },
+  {
+    "path": "evidencias/cliente-vendas.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "evidencias/compilacao.log",
+    "bytes": 7897,
+    "sha256": "e42fdfcfc2dd184c09e6135c25f7b12f66fe90c7df7252820e51b353e49b1e88"
+  },
+  {
+    "path": "evidencias/config-server.log",
+    "bytes": 4804,
+    "sha256": "ebf0a3157c35ad637d609917a193beca39ff88c7fe075400c2f32df43c3abb6c"
+  },
+  {
+    "path": "evidencias/config-server.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "evidencias/testes.json",
+    "bytes": 4323,
+    "sha256": "0bae3a7e203f9fe28e0e365032aa8edd25445f204a4d40a1fce282eabe6f1f3d"
+  },
+  {
+    "path": "mvnw",
+    "bytes": 10665,
+    "sha256": "7e6e5d26712efd78140f2f63dafe8d17028f6c5c97ac1f746a043110b7a1d9ad"
+  },
+  {
+    "path": "mvnw.cmd",
+    "bytes": 7061,
+    "sha256": "3dc8d558cc15e5051a9ef3778099c6a8bcd83320ba0383ece14811194d08d730"
+  },
+  {
+    "path": "pom.xml",
+    "bytes": 682,
+    "sha256": "6d9fb508399ea7da0a0409be0a4bcfd9dff9884b11e26cd7b73b5eff05c076f2"
+  },
+  {
+    "path": "scripts/testar-integracao.ps1",
+    "bytes": 6476,
+    "sha256": "7e60ce9fda248d4cab230f71cadb9292af2b8bb4be93c5023ad427d50cf32f63"
+  }
+]
